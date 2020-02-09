@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity implements MqttCallback,View
                 //startActivity(intent);
                 break;
 
-            case R.id.btnMqttMoveBackward:
+            case R.id.btnMqttMoveForward:
 
                 message = "cmd_forw";
 
@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements MqttCallback,View
                 //startActivity(intent);
                 break;
 
-            case R.id.btnMqttMoveForward:
+            case R.id.btnMqttMoveBackward:
 
                 message = "cmd_backw";
 
